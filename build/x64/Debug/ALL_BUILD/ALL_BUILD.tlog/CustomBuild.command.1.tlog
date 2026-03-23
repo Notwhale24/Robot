@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DESKTOP\УЧЕБА (1)\РОБОТ\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/андрей/Desktop/учеба (1)/робот" "-BC:/Users/андрей/Desktop/учеба (1)/робот/build" --check-stamp-file "C:/Users/андрей/Desktop/учеба (1)/робот/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

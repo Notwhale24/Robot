@@ -1,0 +1,10 @@
+^C:\USERS\АНДРЕЙ\DESKTOP\УЧЕБА (1)\РОБОТ\BUILD\CMAKEFILES\7D5A6C46A5823D4B4B77F4C3E0A35411\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/андрей/Desktop/учеба (1)/робот" "-BC:/Users/андрей/Desktop/учеба (1)/робот/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/андрей/Desktop/учеба (1)/робот/build/robot_controller.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

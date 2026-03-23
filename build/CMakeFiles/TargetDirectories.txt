@@ -1,0 +1,3 @@
+C:/Users/андрей/Desktop/учеба (1)/робот/build/CMakeFiles/robot_controller.dir
+C:/Users/андрей/Desktop/учеба (1)/робот/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/андрей/Desktop/учеба (1)/робот/build/CMakeFiles/ZERO_CHECK.dir
